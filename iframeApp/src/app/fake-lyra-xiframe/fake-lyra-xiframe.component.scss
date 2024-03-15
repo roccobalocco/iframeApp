@@ -1,0 +1,57 @@
+.fakeLyraX{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/lyraXFakeScreen.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fakeLyraX > iframe {
+  position: absolute;
+  bottom: 3vh;
+  right: 2vw;
+}
+
+.fakeLyraX > button.avatar {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 2vh;
+  right: 2vh;
+  border-radius: 30px;
+  background-image: url('/assets/avatar-blu.svg');
+}
+
+div.expand {
+  z-index: 9999;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 645px;
+  right: 4.5vh;
+}
+
+div.not-expand {
+  z-index: 9999;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 795px;
+  right: 4.5vh;
+}
+
+.fakeLyraX > img {
+  position: absolute;
+  top: 1vh;
+  left: 55vw;
+  height: 2vh;
+}
+
+#myiFrame{
+  border-radius: 5px;
+  box-shadow: 11px 10px 16px 1px rgba(44,58,145,0.76);
+  -webkit-box-shadow: 11px 10px 16px 1px rgba(44,58,145,0.76);
+  -moz-box-shadow: 11px 10px 16px 1px rgba(44,58,145,0.76);
+  //box-shadow: rgba(44,58,145, 0.4) 5px 5px, rgba(44,58,145, 0.3) 10px 10px, rgba(44,58,145, 0.2) 15px 15px, rgba(44,58,145, 0.1) 20px 20px, rgba(44,58,145, 0.05) 25px 25px;
+}
